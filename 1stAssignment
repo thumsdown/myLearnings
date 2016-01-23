@@ -1,0 +1,14 @@
+package learnJava;
+
+
+public class myPgm {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello World");
+		int fNum = 0;
+		float secNum = 0.5f;
+		System.out.println("Sum=\n"+(int)(fNum+secNum));				
+	}
+
+}
