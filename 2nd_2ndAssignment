@@ -1,0 +1,33 @@
+package learnJava;
+import java.util.*;
+
+public class myPgm {
+
+	public static void main(String[] args) {
+
+	int Num;
+	List<String> prmNum = new ArrayList<String>();
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the highest value to be listed as Prime number\n");
+	Num = sc.nextInt();
+			
+	for(int i = 2;i<Num;i++)
+	{		
+		for( int j = 2 ; j<= i; j++)
+		{
+			if( j == i )	
+				prmNum.add(String.valueOf(i));
+			
+			if ( i % j == 0)
+				break;
+						
+		}
+	}
+	
+	System.out.println("List of Prime numbers= ");
+	for(String pm :prmNum){
+		System.out.println(pm);
+	}
+	
+	}
+}
