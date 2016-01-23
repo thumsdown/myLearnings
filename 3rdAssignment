@@ -1,0 +1,19 @@
+
+package learnJava;
+
+
+public class myPgm {
+
+	public static void main(String[] args) {
+		int a,b=4.5,c=9700000000;
+		
+		System.out.println("B=" +b );
+	}
+
+}
+
+Exception in thread "main" java.lang.Error: Unresolved compilation problems: 
+	Type mismatch: cannot convert from double to int
+	The literal 9700000000 of type int is out of range 
+
+	at learnJava.myPgm.main(myPgm.java:7)
