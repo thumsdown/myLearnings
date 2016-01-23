@@ -13,7 +13,7 @@ public class Chap3Assin1 {
 		System.out.println("Enter number\n");
 		Num = sc.nextDouble();
 		
-		System.out.println("SquareRoot of number = "+ Math.sqrt(Num));
+		System.out.println("SquareRoot of number = "+Math.sqrt(Num));
 		System.out.println("CubeRoot of number = "+Math.cbrt(Num));
 		
 	}
