@@ -1,0 +1,36 @@
+package learnJava;
+import java.util.*;
+
+public class myPgm {
+
+	public static void main(String[] args) {
+
+	int Num;
+	int index = 0;
+	int inner_loop_index = 0;
+	List<String> prmNum = new ArrayList<String>();
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the number till which Pattern is to be found");
+	Num = sc.nextInt();
+			
+	/** first print in increasing order*/
+	for(int i = 1; i<= Num; i++ )
+	{
+		for(int j = 1; j <= i; j++)
+		{
+			System.out.print(j);
+		}
+		System.out.print("\r\n");
+	}
+	/** Print in decreasing order*/
+	for(int i = Num; i>0; i-- )
+	{
+		for(int j = 1; j < i; j++)
+		{
+			System.out.print(j);
+		}
+		System.out.print("\r\n");
+	}
+	
+	}
+}
